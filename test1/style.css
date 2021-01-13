@@ -1,0 +1,28 @@
+body {
+  padding: 0;
+}
+header {
+  background: lightblue;
+}
+section {
+  background: lightgreen;
+  width: calc(75% - 1rem);
+  /* width: 75%; */
+  float: left;
+}
+article {
+  background: white;
+  margin: 0 0 1rem 0;
+}
+aside {
+  background: pink;
+  width: calc(25% - 1rem);
+  /* width: 25%; */
+  float: right;
+}
+header,
+article,
+section,
+.module {
+  padding: 1rem;
+}

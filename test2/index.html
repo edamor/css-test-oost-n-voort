@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+
+  </head>
+  <body>
+    <div class="page-wrap">
+      
+      <div class="header-wrap">
+        <h1>Make This Responsive</h1>
+        <p>While maintaining the heirarchy of importance.</p>
+      </div>
+
+      <div class="content-wrap">
+
+        <article class="main-story">
+          <picture>
+            <source media="(max-width: 800pt)" srcset="https://picsum.photos/800/600">
+            <img src="https://picsum.photos/1200/800" alt="lorem picsum" width="100%">
+          </picture>
+
+          <div class="story-intro">
+            <h1>Most Important Story</h1>
+            <p>
+              This article has the most visual weight.
+              <a href="https://picsum.photos"
+                >image source.</a
+              >
+            </p>
+          </div>
+        </article>
+
+        <section class="sub-stories">
+          <article class="sub-story">
+            <picture>
+              <source media="(max-width: 800pt)" srcset="http://placecorgi.com/1000/300">
+              <img src="http://placecorgi.com/350/500" alt="place corgi" width="100%">
+            </picture>
+            
+            <div class="story-intro">
+              <h2>Less Important Story</h2>
+              <p>This story has less visual weight.</p>
+            </div>
+          </article>
+
+          <article class="sub-story">
+            <picture>
+              <source media="(max-width: 800pt)" srcset="http://placekitten.com/1000/300">
+              <img 
+                src="http://placekitten.com/350/500" 
+                alt="place kitten"
+                width="100%"
+              >
+            </picture>
+            <div class="story-intro">
+              <h2>Less Important Story</h2>
+              <p>This story has less visual weight.</p>
+            </div>
+          </article>
+
+          <article class="sub-story last">
+            <picture>
+              <source media="(max-width: 800pt)" srcset="https://baconmockup.com/1000/300">
+              <img src="https://baconmockup.com/350/500" alt="bacon mockup" width="100%">
+            </picture>
+            <div class="story-intro">
+              <h2>Less Important Story</h2>
+              <p>This story has less visual weight.</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
